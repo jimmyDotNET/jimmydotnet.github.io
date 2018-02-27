@@ -18,14 +18,15 @@ body {
     width: 30%;
 }
 #greenbox {
+    padding: 15px;
     font-size: 18px;
-    box-shadow: 1px 1px 1px 1px;
+    box-shadow: 2px 4px 25px black;
     border-radius: 5px;
     background-color: #ABE9A8;
 }
 
 #jumbo {
-    box-shadow: 2px 2px 5px;
+    box-shadow: 2px 4px 25px black;
     margin-top: 15px;
     z-index: 99;
     background: rgba(238, 238, 238, 0.6);
@@ -57,6 +58,7 @@ body {
 }
 
 #projects {
+   padding: 10px;
    margin-top: 50px;
    margin-bottom: 50px;
 }
@@ -88,7 +90,6 @@ body {
 
 #contactme {
   margin-bottom: 25px;
-  padding-left: 45px;
 }
 
 #contactme h3 {
@@ -99,6 +100,11 @@ body {
   display: inline-flex;
   max-height: 40px;
   max-width: 40px;
+}
+
+#contactBtns:hover
+{
+    box-shadow: 1px 1px 5px;
 }
 
 #myBtn {
@@ -121,6 +127,7 @@ body {
 }
 
 #myBtn:hover {
+    box-shadow: 1px 1px 20px;
     background-color: #555; /* Add a dark-grey background on hover */
 }
 

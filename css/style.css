@@ -1,12 +1,13 @@
+
 body {
   background-color: #262626;
-  font-family: Monospace, Lucida-Console, sans-serif;
   margin-bottom: 40px;
 }
 
 .container {
   border-radius: 5px;
   background-color: #46E23F;
+  font-family: 'Ubuntu', Lucida-Console, sans-serif;
 }
 
 .bannerPhoto {
@@ -59,8 +60,8 @@ body {
 
 #projects {
    padding: 10px;
-   margin-top: 50px;
-   margin-bottom: 50px;
+   margin-top: 75px;
+   margin-bottom: 75px;
 }
 
 #projects p  {
@@ -132,15 +133,20 @@ body {
 }
 
 .navbar {
-  margin: 0;
+    margin: 0;
+    height: 50px;
+    box-shadow: 1px 1px 20px;
 }
+
 .navbar-brand {
-    font-family: Ubuntu;
+    font-family: 'Marck Script', cursive;
+    font-size: 25px;
+    /**/
 }
 
 #navimg {
-  border-color: #555;
-  margin: auto;
-  height: 30px;
-  width: 30px;
+    border-radius: 50%;
+    border-color: #555;
+    height: 30px;
+    width: 30px;
 }

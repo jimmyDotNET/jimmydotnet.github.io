@@ -142,30 +142,26 @@
     <div class="row" id="contactme">
       <div class="col-sm-4 col-sm-offset-4 text-center">
         <h3 class="text-center">Contact Me</h3>
-        <p>jimmy.vanetta@gmail.com</p>
-        <a href="http://www.linkedin.com/in/james-vanetta" data-toggle="tooltip" data-placement="bottom" title="Visit Me @ LinkedIn"><img class="img-responsive img-circle" id="contactBtns" src='./image/linkedIn.png'></a>
-        <a href="http://www.github.com/jimmyDotNET" data-toggle="tooltip" data-placement="bottom" title="Visit Me @ GitHub!"><img class="img-responsive img-circle" id="contactBtns" src='./image/gitHub.png'></a>
+        <p>Feel free to drop me a line!</p>
+        <form method="POST" action="https://formspree.io/jimmy.vanetta@gmail.com" enctype="text/plain">
+          <div>Subject</div>
+          <input type="text" name="subject" />
+
+          <div>Name</div>
+          <input name="Name" />
+
+          <div>E-Mail</div>
+          <input name="E-Mail Address" />
+
+          <div>Message</div>
+          <textarea name="Message"></textarea>
+
+          <br/>
+          <input type="submit" value="Send" />
+
+          <input type="hidden" name="body" />
+        </form>
       </div>
-    </div>
-    <div class="col-sm-4 col-sm-offset-4 text-center">
-      <form method="GET" action="mailto:jimmy.vanetta@gmail.com" enctype="text/plain">
-        <div>Subject</div>
-        <input type="text" name="subject" />
-
-        <div>Name</div>
-        <input name="Name" />
-
-        <div>E-Mail</div>
-        <input name="E-Mail Address" />
-
-        <div>Message</div>
-        <textarea name="Message"></textarea>
-
-        <br/>
-        <input type="submit" value="Send" />
-
-        <input type="hidden" name="body" />
-      </form>
     </div>
   </div>
 
@@ -173,9 +169,6 @@
   <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <script src="js/index.js"></script>
-  <script>
-
-  </script>
 </body>
 
 </html>

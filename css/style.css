@@ -33,19 +33,6 @@ body {
     background: rgba(238, 238, 238, 0.6);
 }
 
-#linkedInBtn {
-  font-size: 20px;
-  height: 50%;
-  width: 50%;
-  margin: auto;
-  padding-left: 45px;
-}
-
-#gitHubBtn {
-  margin: auto;
-  padding-right: 35px;
-}
-
 #aboutme {
   margin: 10px;
 }
@@ -134,14 +121,12 @@ body {
 
 .navbar {
     margin: 0;
-    height: 50px;
     box-shadow: 1px 1px 20px;
 }
 
 .navbar-brand {
     font-family: 'Marck Script', cursive;
     font-size: 25px;
-    /**/
 }
 
 #navimg {

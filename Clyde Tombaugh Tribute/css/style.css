@@ -1,0 +1,21 @@
+body {
+  background: url('https://img.purch.com/w/660/aHR0cDovL3d3dy5zcGFjZS5jb20vaW1hZ2VzL2kvMDAwLzA1MC8yODgvb3JpZ2luYWwvcGx1dG8tbmV3LWhvcml6b25zLW1vdW50YWlucy1wbGFpbnMuanBn') bottom center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  margin-top: 50px;
+  font-family: Monospace, sans-serif;
+  color: white;
+}
+.jumbotron {
+  color: black;
+  box-shadow: 1px 1px 5px black;
+}
+.thumbnail img {
+  width: 100%;
+  box-shadow: 1px 1px 5px #888888;
+}
+time
+#foot {
+  color: white; 
+}

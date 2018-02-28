@@ -78,6 +78,10 @@ body {
     text-decoration: underline;
 }
 
+#skillset p {
+    font-size: 16px;
+}
+
 #contactme {
     justify-content: center;
 }
@@ -98,11 +102,10 @@ body {
 }
 
 #contactBtns:hover {
-    box-shadow: 1px 1px 10px;
+    box-shadow: 2px 2px 10px;
 }
 
 #contactBtns:active {
-    box-shadow: 3px 3px 10px;
     transform: translateY(2px);
 }
 
@@ -126,19 +129,19 @@ body {
 }
 
 #myBtn:hover {
-  box-shadow: 1px 1px 20px;
-  background-color: #555; 
+    box-shadow: 3px 3px 30px;
+    background-color: #555; 
 }
 
 #myBtn:active {
-  background-color: black;
-  box-shadow: 3px 3px 30px;
-  transform: translateY(2px);
+    background-color: black;
+    box-shadow: 2px 2px 30px inset;
+    transform: translateY(2px);
 }
 
 .navbar {
     margin: 0;
-    box-shadow: 2px 2px 20px;
+    box-shadow: 2px 2px 20px black;
 }
 
 .navbar-brand {

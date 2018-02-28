@@ -143,26 +143,28 @@
       <div class="col-sm-4 col-sm-offset-4 text-center">
         <h3 class="text-center">Contact Me</h3>
         <p>Feel free to drop me a line!</p>
-        <form method="POST" action="https://formspree.io/jimmy.vanetta@gmail.com" enctype="text/plain">
+        <form method="POST" action='https://formspree.io/jimmy.vanetta@gmail.com'>
           <div>Subject</div>
-          <input type="text" name="subject" />
-
+          <input type="text" name="subject">
           <div>Name</div>
-          <input name="Name" />
-
+          <input type="text" name="Name">
           <div>E-Mail</div>
-          <input name="E-Mail Address" />
-
+          <input type="email" name="_replyto">
           <div>Message</div>
-          <textarea name="Message"></textarea>
-
+          <textarea type="text" name="Message"></textarea>
           <br/>
-          <input type="submit" value="Send" />
-
-          <input type="hidden" name="body" />
+          <input type="submit" value="Send" name="Send">
+          <input type="hidden" name="body">
         </form>
       </div>
     </div>
+    <div class="row" id="contactme">
+      <div class="col-sm-4 col-sm-offset-4 text-center">
+        <a href="" data-toggle="tooltip" data-placement="bottom" title="Visit Me @ LinkedIn!"><img class="img-responsive img-circle" id="contactBtns" src="./image/linkedin.png"></a>
+        <a href="" data-toggle="tooltip" data-placement="bottom" title="Visit Me @ GitHub"><img class="img-responsive img-circle" id="contactBtns" src="./image/github.png"></a>
+      </div>
+    </div>
+    <!-- END OF MAIN CONTAINER -->
   </div>
 
   <!-- SCRIPTS -->

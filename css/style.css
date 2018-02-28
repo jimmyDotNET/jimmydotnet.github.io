@@ -1,7 +1,7 @@
 
 body {
   background-color: #262626;
-  margin-bottom: 40px;
+  margin-bottom: 55px;
 }
 
 .container {
@@ -24,6 +24,7 @@ body {
     box-shadow: 2px 4px 25px black;
     border-radius: 5px;
     background-color: #ABE9A8;
+    margin-bottom: 15px;
 }
 
 #jumbo {
@@ -79,7 +80,6 @@ body {
 
 #contactme {
     justify-content: center;
-    margin-bottom: 25px;
 }
 
 #contactme h3 {
@@ -87,10 +87,14 @@ body {
 }
 
 #contactBtns {
-    margin: 5px;
+
     display: inline-flex;
     max-height: 40px;
     max-width: 40px;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    margin-right: 10px;
+    margin-left: 10px;
 }
 
 #contactBtns:hover {

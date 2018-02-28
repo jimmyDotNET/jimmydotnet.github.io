@@ -98,10 +98,11 @@ body {
 }
 
 #contactBtns:hover {
-    box-shadow: 1px 1px 5px;
+    box-shadow: 1px 1px 10px;
 }
 
 #contactBtns:active {
+    box-shadow: 3px 3px 10px;
     transform: translateY(2px);
 }
 
@@ -131,7 +132,7 @@ body {
 
 #myBtn:active {
   background-color: black;
-  box-shadow: 1px 1px 20px;
+  box-shadow: 3px 3px 30px;
   transform: translateY(2px);
 }
 

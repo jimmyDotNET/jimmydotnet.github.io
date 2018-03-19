@@ -9,6 +9,7 @@
   <!-- Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Marck+Script" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Russo+One" rel="stylesheet">
 
   <!-- Style Sheets -->
   <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
@@ -27,65 +28,113 @@
     <div class="container-fluid">
       <div class="navbar-header">
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>                        
-              </button>
-        <a class="navbar-brand" href="#"><img src='https://lh3.googleusercontent.com/S07UmBfZEPIqom6J6j4vkf-9-NDLi5mQEIL6OZZdg2JCYfEsfHjOeTFgU3-4S5j65vb2LromBZpW50kz0LHVVSQhlpWrlPsaPJSOCH1frtvk4csU9q9ysLq_F-u8NXYWwpJA_dQZ' id="navimg"></a>
-        <a class="navbar-brand" href="#"><span>| Jimmy Vanetta |</span></a>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">
+          <img src='https://lh3.googleusercontent.com/S07UmBfZEPIqom6J6j4vkf-9-NDLi5mQEIL6OZZdg2JCYfEsfHjOeTFgU3-4S5j65vb2LromBZpW50kz0LHVVSQhlpWrlPsaPJSOCH1frtvk4csU9q9ysLq_F-u8NXYWwpJA_dQZ'
+            id="navimg">
+        </a>
+        <a class="navbar-brand" href="#">
+          <span>| Jimmy Vanetta </span>
+        </a>
       </div>
       <div class="collapse navbar-collapse" id="myNavbar">
         <ul class="nav navbar-nav">
           <li class="dropdown">
-            <li><a href="#aboutme">About Me</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#skillset">Skill Set</a></li>
-            <li><a href="#contactme">Contact Me</a></li>
+            <li>
+              <a href="#aboutme">About Me</a>
+            </li>
+            <li class="dropdown">
+              <li>
+                <a href="#projects">Projects</a>
+              </li>
+              <li>
+                <a href="#skillset">Skill Set</a>
+              </li>
+              <li>
+                <a href="#contactme">Contact Me</a>
+              </li>
         </ul>
       </div>
     </div>
   </nav>
+  <!-- 
+  <!-- BEGIN MAIN CONTAINER -->
 
-  <!-- BEGIN PAGE CONTENT -->
   <div class="container" id="top">
 
     <!-- TO TOP BUTTON -->
-    <button onClick="topFunction()" id="myBtn"><span class = "glyphicon glyphicon-chevron-up"></span></button>
+
+    <button onClick="topFunction()" id="myBtn">
+      <span class="glyphicon glyphicon-chevron-up"></span>
+    </button>
+
+    <!-- BEGIN JUMBOTRON -->
+
     <div class="jumbotron" id="jumbo">
-      <div class="row" id="top">
+      <div class="row">
         <div class="col-xs-12">
-          <h1 class="text-center">Jimmy Vanetta</h1>
+          <h1 class="text-center" id="bannerName">Jimmy Vanetta</h1>
           <div class="bannerPhoto">
             <img class="img-responsive img-circle" src='https://lh3.googleusercontent.com/S07UmBfZEPIqom6J6j4vkf-9-NDLi5mQEIL6OZZdg2JCYfEsfHjOeTFgU3-4S5j65vb2LromBZpW50kz0LHVVSQhlpWrlPsaPJSOCH1frtvk4csU9q9ysLq_F-u8NXYWwpJA_dQZ'>
           </div>
         </div>
       </div>
-      <h2 class="text-center"><em>Full-Stack Developer</em></h2>
+
+      <!-- This is the skeleton of a bootstrap carousel TO DO: animate carousel with jS and jQuery -->
+
+      <!-- BEGIN CAROUSEL  -->
+<!--
+      <div id="slideshow" class="carousel slide vertical scrollpoint sp-effect3" data-ride="carousel">
+        <div class="carousel-inner">
+          <!-- Slideshow item 1 active 
+          <div class="item active">
+            <h3>Full-Stack Developer</h3>
+          </div>
+          <!-- Slideshow item 2
+          <div class="item">
+            <h3> Creative coder
+              <i class="fa fa-code icon"></i>
+            </h3>
+          </div>
+          <!-- Slideshow item 3
+          <div class="item">
+            <h3>
+              <i class="fa fa-trophy"></i> Awesome designer</h3>
+          </div>
+        </div>
+      </div> -->
+
+      </h2>
       <br>
       <div class="row" id="aboutme">
-        <div class="col-xs-12">
+        <div class="col-xs-12 col-s-12">
           <h3>About Me</h3>
           <p> Knowledge is my craving. I am always searching for knowledge and understanding of the world around me, especially
             how it works. I love learning and working with computers and technology, above all. My ultimate goal is to achieve
-            my dream of having a career in Tech. To that end, my endless curiosity has led me to a new-found passion for
-            all-things code.
+            my dream of achieve a career as a Software Developer. To that end, my ceaseless curiosity has awoken in me a
+            passion for all-things code.
           </p>
           <p>
             I am currently attending the Tech Elevator coding bootcamp in pursuit of a certifcate in full-stack .NET development, and
-            am actively seeking networking opportunities with fellow techies and teams that are seeking a coder who is eager
-            to grow and contribute to meaningful projects. Feel free to visit my GitHub and LinkedIn!
+            am actively seeking networking opportunities with my peers, fellow techies and teams that are seeking a coder
+            who is eager to grow and contribute to meaningful projects. Feel free to visit my GitHub and LinkedIn!
           </p>
         </div>
       </div>
     </div>
+
+    <!-- END JUMBOTRON -->
+
     <div class="row" id="projects">
       <div class="col-xs-12">
         <h2 class="text-center">Projects</h2>
-        <p class="text-center">Nulla tempus fermentum aliquet. Sed molestie rutrum risus egestas consectetur. Duis ultricies magna sit amet massa
-          ullamcorper consequat. Nulla pretium pretium sodales. Sed elit mauris, sollicitudin id justo quis, imperdiet pellentesque
-          diam. Nullam non nulla vel purus auctor bibendum sed non metus. Duis sollicitudin sit amet dolor id ultrices. Donec
-          a sollicitudin ex. Praesent lacinia hendrerit turpis, vel iaculis lorem elementum a. Praesent risus purus, iaculis
-          eget dui quis, porttitor cursus lectus. Nulla facilisi. Vivamus congue consequat arcu ut eleifend.</p>
+        <p class="text-center">Below are a few projects I have been working on. Many of them are pair-programming projects, as part of my Cohort
+          Curriculum. Several of my projects are individual endeavors, like this web page, born out of my love to code and
+          my desire to make good better and better to best. Check back regularly to watch my progress and check out my applications!
+        </p>
       </div>
     </div>
     <div id="greenbox">
@@ -108,31 +157,34 @@
       </div>
       <div class="row" id="portfolio">
         <div class="col-sm-4 col-sm-offset-2">
-          <h3 class="text-center">Bill Splitter</h3>
+          <h3 class="text-center">Co-Expense Splitter</h3>
           <p>As a Side Project, I have actively been developing an application for splitting expenses between parties whom may
             be splitting a large expense (I.E. Rent or other Bills). It also contains features to split restaurant bills
             and calculate tips, as well as being able to split the tip evenly between several parties.
           </p>
         </div>
         <div class="col-sm-4">
-          <h3 class="text-center">Coming Soon..</h3>
+          <h3 class="text-center">National Park Geek</h3>
           <p>
-            Stay tuned for my upcoming projects!
+            This application is another capstone assigned by tech elevator. We are using ASP.NET MVC to create a dynamic, streamlined
+            web app. The end result will be an application for users to look up detailed information on a National Park.
+            It will also display a 5-day Weather Outlook, and suggest how you should prepare per each condition. The users
+            will also be able to take a survey, which will indicate their experience at the selected Park. The parks will
+            then be ranked from highest ratings to lowest.
           </p>
         </div>
       </div>
     </div>
+    <!--
     <div class="row" id="skillset">
       <div class="col-xs-12 text-center">
         <h3>Skill Set</h3>
         <ul>
-          <p>Cras facilisis ut lectus at tincidunt. Curabitur feugiat blandit lacinia. Vestibulum ante ipsum primis in faucibus
-            orci luctus et ultrices posuere cubilia Curae; Mauris semper odio non justo molestie iaculis ut eget sem. Aliquam
-            ante orci, posuere in dignissim sit amet, rhoncus lobortis libero. Sed sagittis odio mauris. Mauris vitae diam
-            vitae purus luctus luctus sed et risus. Cras imperdiet blandit nisi. Donec egestas nibh lacus, id pretium eros
-            viverra ut. Nulla facilisi. Praesent nisi dui, venenatis feugiat odio quis, vehicula dignissim tellus. Aenean
-            tristique, dolor ac vehicula lobortis, massa arcu hendrerit turpis, vitae sodales sem ante ac nisi. Maecenas
-            sollicitudin, neque at gravida facilisis, dui nulla ultrices enim, vel malesuada leo libero eget orci.
+          <p>
+
+            <!-- add your skill sets here, but come up with a more stylish and sleek way of listing them
+              perhaps prepare the entire section to be made interactive with jS -->
+
           </p>
         </ul>
       </div>
@@ -142,30 +194,55 @@
         <div class="col-sm-4 col-sm-offset-4 text-center">
           <h3 class="text-center">Contact Me</h3>
           <p>Feel free to drop me a line!</p>
-          <form method="POST" action='https://formspree.io/jimmy.vanetta@gmail.com'>
-            <div>Subject</div>
-            <input type="text" name="subject">
-            <div>Name</div>
-            <input type="text" name="name">
-            <div>E-Mail</div>
-            <input type="email" name="_replyto">
-            <div>Message</div>
-            <textarea type="text" name="body"></textarea>
-            <br/>
-            <input type="submit" name="send">
-            <input type="hidden" name="_next" value="//jimmydotnet.github.io">
-          </form>
+
+          <!-- BEGIN CONTACT FORM -->
+
+          <!-- TO DO: move the divs that label each input to placeholders -->
+          <div class="form-group">
+            <form method="POST" action='https://formspree.io/jimmy.vanetta@gmail.com'>
+              <div>Subject</div>
+
+              <input type="text" class="form-control" name="subject">
+
+              <div>Name</div>
+
+              <input type="text" class="form-control" name="name">
+
+              <div>E-Mail</div>
+
+              <input type="email" class="form-control" name="_replyto">
+
+              <div>Message</div>
+
+              <textarea type="text" class="form-control" name="body" rows="10" cols="30" placeholder="Enter a message..."></textarea>
+              <br/>
+              <br/>
+              <input type="submit" class="form-control" value="Submit" name="send">
+              <input type="hidden" class="form-control" name="_next" value="//jimmydotnet.github.io">
+            </form>
+          </div>
+
+          <!-- END CONTACT FORM -->
+
         </div>
       </div>
       <div class="row" id="contactme">
         <div class="col-sm-4 col-sm-offset-4 text-center">
-          <a href="https://www.linkedin.com/in/james-vanetta/" target="_blank" data-toggle="tooltip" data-placement="bottom" title="Visit Me @ LinkedIn!"><img class="img-responsive img-circle" id="contactBtns" src='./image/linkedIn.png'></a>
-          <a href="https://github.com/jimmyDotNET" target="_blank" data-toggle="tooltip" data-placement="bottom" title="Visit Me @ GitHub"><img class="img-responsive img-circle" id="contactBtns" src='./image/gitHub.png'></a>
+          <a href="https://www.linkedin.com/in/james-vanetta/" target="_blank" data-toggle="tooltip" data-placement="bottom" title="Visit Me @ LinkedIn!">
+            <img class="img-responsive img-circle" id="contactBtns" src='./image/linkedIn.png'>
+          </a>
+          <a href="https://github.com/jimmyDotNET" target="_blank" data-toggle="tooltip" data-placement="bottom" title="Visit Me @ GitHub">
+            <img class="img-responsive img-circle" id="contactBtns" src='./image/gitHub.png'>
+          </a>
         </div>
       </div>
     </div>
-    <!-- END OF MAIN CONTAINER -->
+    <footer>
+      <p class="text-center">James Vanetta 	&copy;</p>
+    </footer>
   </div>
+
+  <!-- END OF MAIN CONTAINER -->
 
   <!-- SCRIPTS -->
   <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>

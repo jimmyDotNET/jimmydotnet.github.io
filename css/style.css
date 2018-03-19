@@ -3,11 +3,16 @@ body {
   background-color: #262626;
   margin-bottom: 55px;
 }
+#bannerName {
+    font-family: 'Russo One', sans-serif;
+
+    text-shadow: 1px 1px 10px;
+}
 
 .container {
   border-radius: 5px;
   background-color: #46E23F;
-  font-family: 'Ubuntu', Lucida-Console, sans-serif;
+  font-family: 'Ubuntu', sans-serif;
 }
 
 .bannerPhoto {
@@ -18,6 +23,7 @@ body {
     height: 30%;
     width: 30%;
 }
+
 #greenbox {
     padding: 15px;
     font-size: 18px;

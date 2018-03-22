@@ -42,11 +42,9 @@
       </div>
       <div class="collapse navbar-collapse" id="myNavbar">
         <ul class="nav navbar-nav">
-          <li class="dropdown">
             <li>
               <a href="#aboutme">About Me</a>
             </li>
-            <li class="dropdown">
               <li>
                 <a href="#projects">Projects</a>
               </li>
@@ -83,29 +81,24 @@
         </div>
       </div>
 
-      <!-- This is the skeleton of a bootstrap carousel TO DO: animate carousel with jS and jQuery -->
-
       <!-- BEGIN CAROUSEL  -->
-<!--
-      <div id="slideshow" class="carousel slide vertical scrollpoint sp-effect3" data-ride="carousel">
+
+      <div id="slideshow" class="carousel fade" data-ride="carousel">
         <div class="carousel-inner">
-          <!-- Slideshow item 1 active 
-          <div class="item active">
-            <h3>Full-Stack Developer</h3>
+          <!-- Slideshow item 1 active -->
+          <div class="item active text-center">
+            <h3><i class="fa fa-css3"></i> Front-End <i class="fa fa-html5"></i></h3>
           </div>
-          <!-- Slideshow item 2
-          <div class="item">
-            <h3> Creative coder
-              <i class="fa fa-code icon"></i>
-            </h3>
+          <!-- Slideshow item 2 -->
+          <div class="item text-center">
+            <h3>.NET <i class="fa fa-windows"></i></h3>
           </div>
-          <!-- Slideshow item 3
-          <div class="item">
-            <h3>
-              <i class="fa fa-trophy"></i> Awesome designer</h3>
+          <!-- Slideshow item 3 -->
+          <div class="item text-center">
+            <h3><i class="fa fa-code-fork"></i> Back-End <i class="fa fa-code"></i></h3>
           </div>
         </div>
-      </div> -->
+      </div> 
 
       </h2>
       <br>
@@ -128,7 +121,7 @@
 
     <!-- END JUMBOTRON -->
 
-    <div class="row" id="projects">
+    <div class="row" id="projects" onscroll="">
       <div class="col-xs-12">
         <h2 class="text-center">Projects</h2>
         <p class="text-center">Below are a few projects I have been working on. Many of them are pair-programming projects, as part of my Cohort

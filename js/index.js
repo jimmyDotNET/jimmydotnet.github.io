@@ -1,37 +1,41 @@
 
-$(document).ready(function() 
-{
-   
-$('[data-toggle="tooltip"]').tooltip({animation: true});
+$(document).ready(function () {
 
- window.onscroll = function() {scrollFunction()
-};
+    $('[data-toggle="tooltip"]').tooltip({ animation: true });
 
-function scrollFunction() 
-{
-    if (document.body.scrollTop > 75 || document.documentElement.scrollTop > 75) 
-    {
-         $("#myBtn").fadeIn(750);
-    } 
-    else if(document.documentElement.scrollTop < 75)
-    {
-        $("#myBtn").fadeOut(750);
+    window.onscroll = function () {
+        scrollFunction()
+    };
+
+    function scrollFunction() {
+        if (document.body.scrollTop > 75 || document.documentElement.scrollTop > 75) {
+            $("#myBtn").fadeIn(750);
+        }
+        else if (document.documentElement.scrollTop < 75) {
+            $("#myBtn").fadeOut(750);
+        }
     }
-} 
 
 });
 
-function topFunction() 
-{
-    document.body.scrollTop = 0; // For Safari
-    document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+function topFunction() {
+
+    // SMOOTH SCROLL TO TOP FUNCTIONALITY
+    $('html,body').animate({ scrollTop: 0 }, 500);
+
+    // INSTANT SCROLL FUNCTIONALITY
+    // document.body.scrollTop = 0; // For Safari
+    // document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
 };
 
-$(function(){
-    $('.carousel').fadeIn({
-      interval: 2500,
-    });
-});
+
+// CAROUSEL SLIDE ANIMATION
+
+// $(function () {
+//     $('.carousel').carousel({
+//         interval: 3000,
+//     });
+// });
 
 
 

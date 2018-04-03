@@ -4,7 +4,7 @@ body {
   margin-bottom: 55px;
 }
 #bannerName {
-    font-family: 'Russo One', sans-serif;
+    font-family: 'Russo One', Ubuntu;
 
     text-shadow: 1px 1px 10px;
 }
@@ -16,25 +16,26 @@ body {
 }
 
 .bannerPhoto {
+    box-shadow: 1px 1px 5px darkslategray;
     border: solid;
     border-color: black;
     margin: auto;
     border-radius: 50%;
-    height: 30%;
-    width: 30%;
+    height: 25%;
+    width: 25%;
 }
 
 #greenbox {
     padding: 15px;
     font-size: 18px;
-    box-shadow: 2px 4px 25px black;
+    box-shadow: 2px 4px 25px darkslategray;
     border-radius: 5px;
     background-color: #ABE9A8;
     margin-bottom: 15px;
 }
 
 #jumbo {
-    box-shadow: 2px 4px 25px black;
+    box-shadow: 2px 4px 25px darkslategray;
     margin-top: 15px;
     z-index: 99;
     background: rgba(238, 238, 238, 0.6);
@@ -96,7 +97,7 @@ body {
   text-decoration: underline;
 }
 
-#contactBtns {
+.liBtn {
 
     display: inline-flex;
     max-height: 40px;
@@ -107,11 +108,30 @@ body {
     margin-left: 10px;
 }
 
-#contactBtns:hover {
+.liBtn:hover {
     box-shadow: 2px 2px 10px;
 }
 
-#contactBtns:active {
+.liBtn:active {
+    transform: translateY(2px);
+}
+
+.ghBtn {
+
+    display: inline-flex;
+    max-height: 40px;
+    max-width: 40px;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.ghBtn:hover {
+    box-shadow: 2px 2px 10px;
+}
+
+.ghBtn:active {
     transform: translateY(2px);
 }
 
@@ -162,7 +182,35 @@ body {
     width: 30px;
 }
 
+.aboutBtn {
+    box-shadow: 1px 1px 5px lightslategray;
+}
 
+.aboutBtn:focus {
+    outline: none;
+  }
+
+  .aboutBtn:active {
+    outline: none;
+  }
+  .aboutBtn:active:focus {
+      outline: none;
+  }
+
+.projectBtn {
+    box-shadow: 1px 1px 5px lightslategray;
+}
+
+.projectBtn:focus {
+    outline: none;
+  }
+
+  .projectBtn:active {
+    outline: none;
+  }
+  .projectBtn:active:focus {
+      outline: none;
+  }
 
 /* Converts bootstrap carousel transition from slide to fade */
 .carousel.fade {
@@ -187,9 +235,9 @@ body {
   }
   .carousel.fade .item.active {
     opacity: 1;
-    -moz-transition: opacity ease-in-out 2s;
-    -o-transition: opacity ease-in-out 2s;
-    -webkit-transition: opacity ease-in-out 2s;
-    transition: opacity ease-in-out 2s;
+    -moz-transition: opacity ease-in-out 1s;
+    -o-transition: opacity ease-in-out 1s;
+    -webkit-transition: opacity ease-in-out 1s;
+    transition: opacity ease-in-out 1s;
     z-index:2;
   }
